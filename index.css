@@ -117,7 +117,19 @@ body {
     transform: translateX(-50%);
 }
 @media(max-width:600px){
-    #app-wrapper{
+    #app-wrapper,
+    #header,
+    #color-scheme-container,
+    #hex-code{
+        width: 90vw;
+    }
+    #mode-selector{
+        width: 45vw;
+    }
+    #get-color-btn{
+        width: 30vh;
+    }
+    #copy-message{
         width: 90vw;
     }
 }
