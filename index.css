@@ -136,8 +136,9 @@ body {
         font-size: 0.9rem;
         left: 50%;
         width: 90vw;
+        
     }
     .hex-code-tex{
-        font-size: 0.75rem;
+        font-size: 0.25rem;
     }
 }
