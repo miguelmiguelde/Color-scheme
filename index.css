@@ -138,8 +138,8 @@ body {
         width: 90vw;
         
     }
-    .hex-code-tex{
-        font-size: 0.02rem;
+    .hex-code-text{
+        font-size: 0.75rem;
         overflow: hidden;
     }
     #header{
