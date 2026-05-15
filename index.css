@@ -116,3 +116,8 @@ body {
     font-weight: bolder;
     transform: translateX(-50%);
 }
+@media(max-width:600px){
+    #app-wrapper{
+        width: 90vw;
+    }
+}
