@@ -140,5 +140,10 @@ body {
     }
     .hex-code-tex{
         font-size: 0.25rem;
+        overflow: hidden;
+    }
+    #header{
+        display: flex;
+        gap: 0.4rem;
     }
 }
