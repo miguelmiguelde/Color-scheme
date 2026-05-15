@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="apple-mobile-web-app-capable"content="yes">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+        <title>Color Scheme</title>
+        <meta name="description" content="Explore and build color schemes and palettes for your projects.">
+        <meta name="keywords" content="color scheme, palette, colors, design, accessibility">
+        <meta name="author" content="Miguel Miguel De Jesus">
+        <meta name="robots" content="index, follow">
+        <meta name="referrer" content="strict-origin-when-cross-origin">
+
+        <meta name="theme-color" content="#0f172a">
+        <meta name="color-scheme" content="light dark">
+        <meta name="format-detection" content="telephone=no">
+
+        <meta property="og:type" content="website">
+        <meta property="og:title" content="Color Scheme">
+        <meta property="og:description" content="Explore and build color schemes and palettes for your projects.">
+        <meta property="og:url" content="https://example.com/">
+        <meta property="og:site_name" content="Color Scheme">
+        <meta property="og:locale" content="en_US">
+        <meta property="og:image" content="https://example.com/og-image.png">
+        <meta property="og:image:alt" content="Color Scheme preview">
+
+        <meta name="twitter:card" content="summary_large_image">
+        <meta name="twitter:title" content="Color Scheme">
+        <meta name="twitter:description" content="Explore and build color schemes and palettes for your projects.">
+        <meta name="twitter:image" content="https://example.com/og-image.png">
+
+        <meta name="apple-mobile-web-app-capable" content="yes">
+        <meta name="apple-mobile-web-app-status-bar-style" content="default">
+        <meta name="apple-mobile-web-app-title" content="Color Scheme">
+
+        <meta name="application-name" content="Color Scheme">
+        <meta name="msapplication-TileColor" content="#0f172a">
+
+        <link rel="canonical" href="https://example.com/">
+        <link rel="stylesheet" href="index.css">
+    </head>
+    <body>
+        <div id="app-wrapper">
+            <header id="header">
+                <input id="color-selector" type="color" value="#0f172a">
+                <select id="mode-selector">
+                    <option value="monochrome">Monochrome</option>
+                    <option value="monochrome-dark">Monochrome-dark</option>
+                    <option value="monochrome-light">Monochrome-light</option>
+                    <option value="analogic">Analogic</option>
+                    <option vaulue="complement">Complement</option>
+                    <option value="analogic-complement">Analogic-complement</option>
+                    <option value="triad">Triad</option>
+                </select>
+                <button id="get-color-btn">Get color scheme</button>
+            </header>
+        
+            <main>
+            <div id="color-scheme-container">
+                <div class="color-column" id="box1"></div>
+                <div class="color-column" id="box2"></div>
+                <div class="color-column" id="box3"></div>
+                <div class="color-column" id="box4"></div>
+                <div class="color-column" id="box5"></div>
+            </div>
+             <footer id="hex-code">
+                <p class="hex-code-text" id="hex1">#000000</p>
+                <p class="hex-code-text" id="hex2">#0E1525</p>
+                <p class="hex-code-text" id="hex3">#1B294B</p>
+                <p class="hex-code-text" id="hex4">#283E71</p>
+                <p class="hex-code-text" id="hex5">#345298</p>
+             </footer>
+             <p id="copy-message">Hex Copied!</p>
+            </main>
+            
+    </div>
+        <script src="index.js"></script>
+    </body>
+</html>
